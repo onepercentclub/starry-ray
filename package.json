@@ -1,0 +1,20 @@
+{
+  "name": "starry-ray",
+  "version": "1.0.0",
+  "description": "A proxy back end for thorny-skate",
+  "author": "Maurice Kleine <info@mauricekleine.nl>",
+  "private": true,
+  "repository": "https://github.com/onepercentclub/starry-ray",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.15.5",
+    "express-http-proxy": "^1.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
