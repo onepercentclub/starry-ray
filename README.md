@@ -4,6 +4,8 @@
 
 ## Build Setup
 
+##### Be sure to install and run [bluebottle](https://github.com/onepercentclub/bluebottle)
+
 ``` bash
 # install dependencies
 yarn
