@@ -12,9 +12,7 @@
   "dependencies": {
     "cors": "^2.8.4",
     "express": "^4.15.5",
-    "express-http-proxy": "^1.0.6"
-  },
-  "devDependencies": {
+    "express-http-proxy": "^1.0.6",
     "nodemon": "^1.12.1"
   }
 }
