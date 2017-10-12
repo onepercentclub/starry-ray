@@ -8,7 +8,7 @@ app.use(cors({
 }));
 
 app.use('/', proxy(process.env.NODE_ENV === 'production'
-  ? 'https://onepercentclub.com'
+  ? 'https://onepercentclub.com/api'
   : 'http://onepercent.localhost:8000/api'
 ));
 
